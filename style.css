@@ -1,0 +1,89 @@
+body{
+	font: 15px/1.5, monospace, sans-serif;
+	padding: 0;
+	margin: 0;
+	background-color: #f4f4f4;
+}
+.container{
+    /* border:1px solid; */
+    width:100%;
+    overflow: hidden;
+}
+#header{
+    background-color: lightcyan;
+}
+#logo{
+
+    float: left;
+}
+#logo span{
+    color:rgb(48, 27, 246);
+    margin-right:15px;
+    margin-left:8px;
+    font-weight: bold;
+}
+#logo h1{
+    font-weight: normal;
+}
+ul{
+    margin:0;
+    padding:0;
+}
+.navigation{
+    float:right;
+}
+.navigation li{
+    display: inline;
+    float:left;
+    margin-top:28px;
+    margin-right: 18px;
+    padding:5px;
+}
+.navigation a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.navigation a:hover{
+    font-weight: bold;
+    color:rgb(25, 115, 225);
+    text-transform: uppercase;
+    
+}
+.top-left{
+    position:absolute;
+    top:70%;
+    left:30%;
+    right:30%;
+    color:#fff;
+}
+#AboutDc #sectionTitle{
+    margin-top:0;
+    background-color: rgb(140, 187, 228);
+}
+#AboutBatman #sectionTitle{
+    margin-top:0;
+    background-color: rgb(140, 187, 228);
+}
+#videos #sectionTitle{
+    margin-top:0;
+    background-color: rgb(140, 187, 228);
+}
+#form #sectionTitle{
+    margin-top:0;
+    background-color: rgb(140, 187, 228);
+}
+#box iframe{
+    width:70%;
+}
+#box{
+    float:left;
+    width:30%;
+    /* display: inline; */
+    padding:10px;
+    text-align: center;
+}
+#footer h4{
+    text-align: center;
+    font-weight: normal;
+    font-size: 20px;
+}
